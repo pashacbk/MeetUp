@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="com.MeetUp.meetup.screens.auth.AuthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/spacing_24_dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/logo_width"
+            android:layout_height="@dimen/logo_height"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_launcher" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textSize="@dimen/text_size_28_sp"
+            android:textColor="@color/primaryTextColor"
+            android:gravity="center"
+            android:text="@string/slogan"/>
+
+        <Button
+            android:id="@+id/sign_up"
+            android:theme="@style/AuthButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/sign_up"
+            android:layout_marginEnd="@dimen/spacing_56_dp"
+            android:layout_marginStart="@dimen/spacing_56_dp"
+            android:textColor="@color/primaryTextColor"
+            android:layout_weight="2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/primaryTextColor"
+            android:text="@string/already_have_account"/>
+        <Button
+            android:id="@+id/sign_in"
+            android:theme="@style/AuthButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="@dimen/spacing_56_dp"
+            android:layout_marginStart="@dimen/spacing_56_dp"
+            android:layout_height="0dp"
+            android:text="@string/sign_in"
+            android:textColor="@color/primaryTextColor"
+            android:layout_weight="2" />
+    </LinearLayout>
+    <include layout="@layout/layout_loader_container"/>
+</FrameLayout>

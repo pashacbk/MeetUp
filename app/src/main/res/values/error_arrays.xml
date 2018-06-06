@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="error_code">
+        <item>404</item>
+        <item>500</item>
+        <item>503</item>
+        <item>-1</item>
+        <item>-2</item>
+    </integer-array>
+
+    <string-array name="error_message">
+        <item>@string/error_api_not_found</item>
+        <item>@string/error_api_internal_server_error</item>
+        <item>@string/error_api_service_unavailable</item>
+        <item>@string/error_api_general</item>
+        <item>@string/error_api_no_network_connection</item>
+    </string-array>
+</resources>

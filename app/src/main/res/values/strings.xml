@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MeetUp</string>
+    <string name="slogan">A community of creative minds</string>
+    <string name="already_have_account">Already have MeetUp Account</string>
+    <string name="sign_in">sign in</string>
+    <string name="sign_up">sign up</string>
+    <string name="user_name">User name</string>
+    <string name="email">Email</string>
+    <string name="create_account">Create Account</string>
+    <string name="password">Password</string>
+    <string name="empty_string" />
+    <string name="error_invalid_user_name">Please use only valid characters.</string>
+    <string name="error_invalid_email">Invalid email address format.</string>
+    <string name="error_invalid_password">At least password must have 8 characters</string>
+    <string name="error_empty_field">Please, fill in all fields</string>
+    <string name="error_incorrect_data">Incorrect email or password</string>
+    <string name="choose_country">Choose Country</string>
+    <string name="error_empty_country_field">Please, choose country</string>
+    <string name="signUp_pass_hint_text">Password</string>
+    <string name="signUp_login_btt">Login</string>
+    <string name="signUp_email_hint_text">Email</string>
+    <string name="search_action">Search</string>
+    <string name="txt_allEvents_tabLayout">All events</string>
+    <string name="ok">OK</string>
+    <string name="default_loading_message">Loading&#8230;</string>
+    <string name="email_regex">[a-zA-Z0-9+._%/\\\-+]{1,256}@[a-zA-Z0-9][a-zA-Z0-9-]{0,64}(\.[a-zA-Z0-9][a-zA-Z0-9-]{0,25})</string>
+    <string name="password_regex">.{8,}</string>
+    <string name="empty_regex">^$</string>
+    <string name="error_location_provider_disable">Location provider disable</string>
+    <string name="location_needed_explanation">Note that without current location app will use last location from meetup.com</string>
+    <string name="settings">SETTINGS</string>
+    <string name="error_api_not_found">Not Found. Please try again later&#8230;</string>
+    <string name="error_api_internal_server_error">Internal Server Error. Please try again later&#8230;</string>
+    <string name="error_api_service_unavailable">Currently service is unavailable. Please try again later&#8230;</string>
+    <string name="error_api_general">Ooops! Something went wrong. We are working on it&#8230;</string>
+    <string name="error_api_no_network_connection">No Network Connection. Please check your phone settings&#8230;</string>
+    <string name="your_groups">Your Groups</string>
+    <string name="your_interests">Your Interests</string>
+    <string name="see_stored_data">See stored data</string>
+    <string name="no">No, thanks</string>
+    <string name="search_location">Search location</string>
+    <string name="location_query_hint">Search cities</string>
+    <string name="no_groups_message">Seems that you don\'t have any groups yet, use searching to finding&#8230;</string>
+
+</resources>

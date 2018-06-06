@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_name_splash_size">20sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="splash_imageview_margintop">50dp</dimen>
+    <dimen name="splash_textview_margintop">12dp</dimen>
+    <dimen name="logo_width">160dp</dimen>
+    <dimen name="logo_height">160dp</dimen>
+    <!--default sizes-->
+    <dimen name="spacing_1_dp">1dp</dimen>
+    <dimen name="spacing_5_dp">5dp</dimen>
+    <dimen name="spacing_10_dp">10dp</dimen>
+    <dimen name="spacing_12_dp">12dp</dimen>
+    <dimen name="spacing_14_dp">14dp</dimen>
+    <dimen name="spacing_16_dp">16dp</dimen>
+    <dimen name="spacing_24_dp">24dp</dimen>
+    <dimen name="spacing_28_dp">28dp</dimen>
+    <dimen name="spacing_32_dp">32dp</dimen>
+    <dimen name="spacing_36_dp">36dp</dimen>
+    <dimen name="spacing_42_dp">42dp</dimen>
+    <dimen name="spacing_46_dp">46dp</dimen>
+    <dimen name="spacing_48_dp">48dp</dimen>
+    <dimen name="spacing_56_dp">56dp</dimen>
+    <dimen name="spacing_64_dp">64dp</dimen>
+
+    <!--default text sizes-->
+
+    <dimen name="text_size_12_sp">12sp</dimen>
+    <dimen name="text_size_14_sp">14sp</dimen>
+    <dimen name="text_size_16_sp">16sp</dimen>
+    <dimen name="text_size_18_sp">18sp</dimen>
+    <dimen name="text_size_24_sp">24sp</dimen>
+    <dimen name="text_size_28_sp">28sp</dimen>
+
+    <dimen name="dialog_list_height">300dp</dimen>
+    <dimen name="textInputLayout_margin_top_bottom">8dp</dimen>
+    <dimen name="spacing_150_dp">150dp</dimen>
+    <dimen name="signin_email_margintop">190dp</dimen>
+    <dimen name="card_height">180dp</dimen>
+    <dimen name="spacing_250_dp">250dp</dimen>
+    <dimen name="spacing_18_dp">18dp</dimen>
+    <dimen name="group_card_width">220dp</dimen>
+    <dimen name="group_card_height">250dp</dimen>
+    <dimen name="search_location_width">220dp</dimen>
+
+</resources>
